@@ -19,7 +19,6 @@ def main():
 
     #input for years
     years=input("Enter the number of years: ")
-    print(" ") #again unsure how to make a blank line after an input that doesnt put the input area below
 
     #math time
     interestRate=(float(interest)/5200)
@@ -29,7 +28,7 @@ def main():
     #being good at math vs knowing how it works is so clear now
 
     #output for weekly payments
-    print("Your weekly payment will be: ${0:.2f}".format(weeklyPay))
+    print("\nYour weekly payment will be: ${0:.2f}".format(weeklyPay))
 
 
 
